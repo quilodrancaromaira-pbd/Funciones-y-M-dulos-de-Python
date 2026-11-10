@@ -26,5 +26,11 @@ def calcular_promedio(nota1, nota2, nota3):
 def es_par(numero):
     """Retorna True si el número es par, o False si es impar."""
     # Tú código aquí:
+    numero = float(input("Ingrese su numero: "))
+    if numero % 2 == 0:
+        print("Su numero es par", numero)
+    else:
+        print("Su numero es impar", numero)
+
     # Pista: Utiliza el operador módulo (%) -> numero % 2 == 0
     pass
