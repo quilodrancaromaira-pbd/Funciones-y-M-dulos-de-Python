@@ -21,6 +21,8 @@ def ejecutar_programa():
     numero_evaluar = 8
     print(f"¿El número {numero_evaluar} es par?: {operaciones.es_par(numero_evaluar)}")
 
+    celsius = conversor.celsius_a_fahrenheit(25)
+    print(f"La conversion de grados celsius a fahrenheit es: {celsius}")
 
 if __name__ == '__main__':
     ejecutar_programa()
